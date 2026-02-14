@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+/* App.css */
+ .app-container {
+  background-color: lightblue; 
+ height: 100vh;
+ }
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -40,3 +47,11 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.card:hover {
+  transform: scale(1.1); /* Esempio di ingrandimento al passaggio del mouse */
+  /* Altri stili di hover, come cambi di colore o ombre, possono essere aggiunti qui */
+}
+
+
