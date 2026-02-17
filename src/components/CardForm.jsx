@@ -69,8 +69,9 @@ function CardForm(){
                  ></textarea>
             </div>
             <div className="flex flex-col">
-                 <label>Immagine</label>
+                 <label>Inserisci indirizzo dell'immagine</label>
                  <input type="text" 
+                 className="bg-bg-white text-black p-2 rounded"
                  name="imgURL"
                  value={formData.imgURL} 
                  onChange={handleInputChange}
